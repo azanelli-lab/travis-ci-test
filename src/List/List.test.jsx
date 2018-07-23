@@ -21,7 +21,7 @@ describe('<List />', () => {
 
   it('renders all the items', () => {
     const component = shallow(<List items={items} />);
-    expect(component.find('.c-list__item').length).toBe(3);
+    expect(component.find('.c-list__item').length).toBe(2);
   });
 
 });
